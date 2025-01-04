@@ -22,17 +22,17 @@ import (
 	"github.com/mattn/go-shellwords"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/command/cliconfig"
-	"github.com/opentofu/opentofu/internal/command/format"
-	"github.com/opentofu/opentofu/internal/didyoumean"
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/logging"
-	"github.com/opentofu/opentofu/internal/terminal"
+	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/opentofu/opentofu/pkg/command/cliconfig"
+	"github.com/opentofu/opentofu/pkg/command/format"
+	"github.com/opentofu/opentofu/pkg/didyoumean"
+	"github.com/opentofu/opentofu/pkg/httpclient"
+	"github.com/opentofu/opentofu/pkg/logging"
+	"github.com/opentofu/opentofu/pkg/terminal"
 	"github.com/opentofu/opentofu/version"
 	"go.opentelemetry.io/otel/trace"
 
-	backendInit "github.com/opentofu/opentofu/internal/backend/init"
+	backendInit "github.com/opentofu/opentofu/pkg/backend/init"
 )
 
 const (

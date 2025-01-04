@@ -5,7 +5,7 @@
 
 package main
 
-import "github.com/opentofu/opentofu/internal/command/workdir"
+import "github.com/opentofu/opentofu/pkg/command/workdir"
 
 func workingDir(originalDir string, overrideDataDir string) *workdir.Dir {
 	ret := workdir.NewDir(".") // caller should already have used os.Chdir in "-chdir=..." mode
