@@ -21,15 +21,15 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/configs/configload"
-	"github.com/opentofu/opentofu/pkg/getmodules"
-	"github.com/opentofu/opentofu/pkg/modsdir"
-	"github.com/opentofu/opentofu/pkg/registry"
-	"github.com/opentofu/opentofu/pkg/registry/regsrc"
-	"github.com/opentofu/opentofu/pkg/registry/response"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/configs/configload"
+	"github.com/we-dcode/opentofu/pkg/getmodules"
+	"github.com/we-dcode/opentofu/pkg/modsdir"
+	"github.com/we-dcode/opentofu/pkg/registry"
+	"github.com/we-dcode/opentofu/pkg/registry/regsrc"
+	"github.com/we-dcode/opentofu/pkg/registry/response"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 type ModuleInstaller struct {
@@ -446,7 +446,7 @@ func (i *ModuleInstaller) installRegistryModule(ctx context.Context, req *config
 			if registry.IsModuleNotFound(err) {
 				suggestion := ""
 				if hostname == addrs.DefaultModuleRegistryHost {
-					suggestion = "\n\nIf you believe this module is missing from the registry, please submit a issue on the OpenTofu Registry https://github.com/opentofu/registry/issues/new/choose"
+					suggestion = "\n\nIf you believe this module is missing from the registry, please submit a issue on the OpenTofu Registry https://github.com/we-dcode/registry/issues/new/choose"
 				}
 
 				diags = diags.Append(&hcl.Diagnostic{
@@ -537,7 +537,7 @@ func (i *ModuleInstaller) installRegistryModule(ctx context.Context, req *config
 			// to combine a prerelease selection with another constraint will
 			// cause all prerelease versions to be excluded from the selection.
 			// For more information:
-			//     https://github.com/opentofu/opentofu/issues/2117
+			//     https://github.com/we-dcode/opentofu/issues/2117
 			constraint := req.VersionConstraint.Required.String()
 			acceptableVersions, err := versions.MeetingConstraintsString(constraint)
 			if err != nil {

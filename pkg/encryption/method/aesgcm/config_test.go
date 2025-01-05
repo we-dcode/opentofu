@@ -10,9 +10,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 
-	"github.com/opentofu/opentofu/pkg/encryption/method"
+	"github.com/we-dcode/opentofu/pkg/encryption/method"
 )
 
 func TestConfig_Build(t *testing.T) {

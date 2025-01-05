@@ -6,7 +6,7 @@
 package jsonprovider
 
 import (
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
 )
 
 type Block struct {

@@ -14,11 +14,11 @@ import (
 	"bytes"
 	"crypto/md5"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/states/remote"
-	"github.com/opentofu/opentofu/pkg/states/statefile"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/states/remote"
+	"github.com/we-dcode/opentofu/pkg/states/statefile"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
 )
 
 // NOTE: Before running this testcase, please create a OTS instance called 'tf-oss-remote'

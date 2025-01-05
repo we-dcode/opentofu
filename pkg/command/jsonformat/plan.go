@@ -12,13 +12,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/command/format"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed/renderers"
-	"github.com/opentofu/opentofu/pkg/command/jsonplan"
-	"github.com/opentofu/opentofu/pkg/command/jsonprovider"
-	"github.com/opentofu/opentofu/pkg/command/jsonstate"
-	"github.com/opentofu/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/command/format"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed/renderers"
+	"github.com/we-dcode/opentofu/pkg/command/jsonplan"
+	"github.com/we-dcode/opentofu/pkg/command/jsonprovider"
+	"github.com/we-dcode/opentofu/pkg/command/jsonstate"
+	"github.com/we-dcode/opentofu/pkg/plans"
 )
 
 const (

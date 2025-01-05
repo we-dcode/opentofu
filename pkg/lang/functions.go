@@ -14,9 +14,9 @@ import (
 	"github.com/zclconf/go-cty/cty/function"
 	"github.com/zclconf/go-cty/cty/function/stdlib"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/experiments"
-	"github.com/opentofu/opentofu/pkg/lang/funcs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/experiments"
+	"github.com/we-dcode/opentofu/pkg/lang/funcs"
 )
 
 var impureFunctions = []string{

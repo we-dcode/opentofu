@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/e2e"
-	"github.com/opentofu/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/e2e"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
 )
 
 // TestProviderProtocols verifies that OpenTofu can execute provider plugins
@@ -35,10 +35,10 @@ func TestProviderProtocols(t *testing.T) {
 	// actually run it. Here will build the simple and simple6 (built with
 	// protocol v6) providers.
 	simple6Provider := filepath.Join(tf.WorkDir(), "terraform-provider-simple6")
-	simple6ProviderExe := e2e.GoBuild("github.com/opentofu/opentofu/pkg/provider-simple-v6/main", simple6Provider)
+	simple6ProviderExe := e2e.GoBuild("github.com/we-dcode/opentofu/pkg/provider-simple-v6/main", simple6Provider)
 
 	simpleProvider := filepath.Join(tf.WorkDir(), "terraform-provider-simple")
-	simpleProviderExe := e2e.GoBuild("github.com/opentofu/opentofu/pkg/provider-simple/main", simpleProvider)
+	simpleProviderExe := e2e.GoBuild("github.com/we-dcode/opentofu/pkg/provider-simple/main", simpleProvider)
 
 	// Move the provider binaries into a directory that we will point tofu
 	// to using the -plugin-dir cli flag.

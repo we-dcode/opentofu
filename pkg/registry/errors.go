@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/opentofu/opentofu/pkg/registry/regsrc"
+	"github.com/we-dcode/opentofu/pkg/registry/regsrc"
 )
 
 type errModuleNotFound struct {

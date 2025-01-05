@@ -8,8 +8,8 @@ package inmem
 import (
 	"crypto/md5"
 
-	"github.com/opentofu/opentofu/pkg/states/remote"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/states/remote"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
 )
 
 // RemoteClient is a remote client that stores data in memory for testing.

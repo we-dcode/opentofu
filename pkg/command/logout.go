@@ -12,8 +12,8 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/opentofu/opentofu/pkg/command/cliconfig"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/command/cliconfig"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // LogoutCommand is a Command implementation which removes stored credentials

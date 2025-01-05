@@ -6,7 +6,7 @@
 package arguments
 
 import (
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // Show represents the command-line arguments for the show command.

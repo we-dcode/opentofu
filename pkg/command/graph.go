@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/command/arguments"
-	"github.com/opentofu/opentofu/pkg/dag"
-	"github.com/opentofu/opentofu/pkg/plans"
-	"github.com/opentofu/opentofu/pkg/plans/planfile"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/command/arguments"
+	"github.com/we-dcode/opentofu/pkg/dag"
+	"github.com/we-dcode/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/plans/planfile"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 // GraphCommand is a Command implementation that takes a OpenTofu

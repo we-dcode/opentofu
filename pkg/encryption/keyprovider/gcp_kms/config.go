@@ -11,9 +11,9 @@ import (
 	"os"
 
 	"github.com/mitchellh/go-homedir"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
-	"github.com/opentofu/opentofu/pkg/httpclient"
-	"github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/httpclient"
+	"github.com/we-dcode/opentofu/version"
 	"golang.org/x/oauth2"
 	"google.golang.org/api/impersonate"
 	"google.golang.org/api/option"

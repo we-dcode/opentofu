@@ -11,10 +11,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/states/remote"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states/remote"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/blobs"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/containers"
 )

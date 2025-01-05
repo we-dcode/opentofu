@@ -10,8 +10,8 @@ import (
 
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs/hcl2shim"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs/hcl2shim"
 )
 
 // String returns a rather-odd string representation of the entire state.

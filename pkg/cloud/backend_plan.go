@@ -23,13 +23,13 @@ import (
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/cloud/cloudplan"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/genconfig"
-	"github.com/opentofu/opentofu/pkg/plans"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/cloud/cloudplan"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/genconfig"
+	"github.com/we-dcode/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 var planConfigurationVersionsPollInterval = 500 * time.Millisecond

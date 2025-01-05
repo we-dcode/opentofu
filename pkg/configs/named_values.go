@@ -15,7 +15,7 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // A consistent detail message for all "not a valid identifier" diagnostics.

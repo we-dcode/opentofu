@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/hcl/v2"
-	viewsjson "github.com/opentofu/opentofu/pkg/command/views/json"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	viewsjson "github.com/we-dcode/opentofu/pkg/command/views/json"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 
 	"github.com/mitchellh/colorstring"
 	wordwrap "github.com/mitchellh/go-wordwrap"

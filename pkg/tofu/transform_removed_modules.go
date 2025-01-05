@@ -8,9 +8,9 @@ package tofu
 import (
 	"log"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/states"
 )
 
 // RemovedModuleTransformer implements GraphTransformer to add nodes indicating

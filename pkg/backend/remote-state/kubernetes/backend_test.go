@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

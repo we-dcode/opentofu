@@ -8,7 +8,7 @@ package funcs
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/lang/marks"
+	"github.com/we-dcode/opentofu/pkg/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

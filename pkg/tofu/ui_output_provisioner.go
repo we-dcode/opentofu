@@ -6,7 +6,7 @@
 package tofu
 
 import (
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // ProvisionerUIOutput is an implementation of UIOutput that calls a hook

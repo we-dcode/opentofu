@@ -8,10 +8,10 @@ package views
 import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/mitchellh/colorstring"
-	"github.com/opentofu/opentofu/pkg/command/arguments"
-	"github.com/opentofu/opentofu/pkg/command/format"
-	"github.com/opentofu/opentofu/pkg/terminal"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/command/arguments"
+	"github.com/we-dcode/opentofu/pkg/command/format"
+	"github.com/we-dcode/opentofu/pkg/terminal"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // View is the base layer for command views, encapsulating a set of I/O

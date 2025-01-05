@@ -10,8 +10,8 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // InputValue represents a raw value for a root module input variable as

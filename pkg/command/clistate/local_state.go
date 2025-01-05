@@ -16,8 +16,8 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/opentofu/opentofu/pkg/legacy/tofu"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/legacy/tofu"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
 )
 
 // LocalState manages a state storage that is local to the filesystem.

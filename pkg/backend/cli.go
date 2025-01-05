@@ -9,8 +9,8 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/opentofu/opentofu/pkg/terminal"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/terminal"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 // CLI is an optional interface that can be implemented to be initialized

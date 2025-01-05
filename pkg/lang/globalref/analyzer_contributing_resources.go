@@ -8,7 +8,7 @@ package globalref
 import (
 	"sort"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // ContributingResources analyzes all of the given references and

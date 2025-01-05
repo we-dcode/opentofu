@@ -12,16 +12,16 @@ import (
 	"github.com/mitchellh/colorstring"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/pkg/command/format"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/differ"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/structured"
-	"github.com/opentofu/opentofu/pkg/command/jsonplan"
-	"github.com/opentofu/opentofu/pkg/command/jsonprovider"
-	"github.com/opentofu/opentofu/pkg/command/jsonstate"
-	viewsjson "github.com/opentofu/opentofu/pkg/command/views/json"
-	"github.com/opentofu/opentofu/pkg/plans"
-	"github.com/opentofu/opentofu/pkg/terminal"
+	"github.com/we-dcode/opentofu/pkg/command/format"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/differ"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/structured"
+	"github.com/we-dcode/opentofu/pkg/command/jsonplan"
+	"github.com/we-dcode/opentofu/pkg/command/jsonprovider"
+	"github.com/we-dcode/opentofu/pkg/command/jsonstate"
+	viewsjson "github.com/we-dcode/opentofu/pkg/command/views/json"
+	"github.com/we-dcode/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/terminal"
 )
 
 type JSONLogType string

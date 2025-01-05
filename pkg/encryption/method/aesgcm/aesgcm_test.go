@@ -9,10 +9,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 
-	"github.com/opentofu/opentofu/pkg/encryption/method"
-	"github.com/opentofu/opentofu/pkg/encryption/method/aesgcm"
+	"github.com/we-dcode/opentofu/pkg/encryption/method"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/aesgcm"
 )
 
 var config = &aesgcm.Config{

@@ -12,9 +12,9 @@ import (
 	"github.com/hashicorp/hcl"
 	hclast "github.com/hashicorp/hcl/hcl/ast"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/getproviders"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // ProviderInstallation is the structure of the "provider_installation"

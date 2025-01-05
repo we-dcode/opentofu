@@ -8,10 +8,10 @@ package lang
 import (
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/lang/blocktoattr"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/lang/blocktoattr"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // References finds all of the references in the given set of traversals,

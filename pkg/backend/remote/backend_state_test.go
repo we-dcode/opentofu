@@ -9,12 +9,12 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/cloud"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/states/remote"
-	"github.com/opentofu/opentofu/pkg/states/statefile"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/cloud"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states/remote"
+	"github.com/we-dcode/opentofu/pkg/states/statefile"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

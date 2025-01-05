@@ -15,14 +15,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/initwd"
-	"github.com/opentofu/opentofu/pkg/providers"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/initwd"
+	"github.com/we-dcode/opentofu/pkg/providers"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 
-	_ "github.com/opentofu/opentofu/pkg/logging"
+	_ "github.com/we-dcode/opentofu/pkg/logging"
 )
 
 func TestMain(m *testing.M) {

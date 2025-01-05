@@ -16,9 +16,9 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // GenerateResourceContents generates HCL configuration code for the provided

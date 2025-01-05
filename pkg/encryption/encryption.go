@@ -7,9 +7,9 @@ package encryption
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/registry"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/registry"
 )
 
 // Encryption contains the methods for obtaining a StateEncryption or PlanEncryption correctly configured for a specific

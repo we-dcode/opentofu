@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 // StateHook is a hook that continuously updates the state by calling

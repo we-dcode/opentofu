@@ -10,12 +10,12 @@ import (
 
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/checks"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/dag"
-	"github.com/opentofu/opentofu/pkg/lang"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/checks"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/dag"
+	"github.com/we-dcode/opentofu/pkg/lang"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 var (

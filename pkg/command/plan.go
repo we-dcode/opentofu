@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/command/arguments"
-	"github.com/opentofu/opentofu/pkg/command/views"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/command/arguments"
+	"github.com/we-dcode/opentofu/pkg/command/views"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // PlanCommand is a Command implementation that compares a OpenTofu

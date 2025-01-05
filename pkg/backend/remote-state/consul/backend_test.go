@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/encryption"
 )
 
 func TestBackend_impl(t *testing.T) {

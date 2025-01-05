@@ -14,10 +14,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/opentofu/opentofu/pkg/lang"
-	"github.com/opentofu/opentofu/pkg/lang/marks"
-	"github.com/opentofu/opentofu/pkg/lang/types"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/lang"
+	"github.com/we-dcode/opentofu/pkg/lang/marks"
+	"github.com/we-dcode/opentofu/pkg/lang/types"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // Session represents the state for a single REPL session.

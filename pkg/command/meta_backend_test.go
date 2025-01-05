@@ -19,20 +19,20 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/copy"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/plans"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/states/statefile"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/copy"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states/statefile"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
 
-	backendInit "github.com/opentofu/opentofu/pkg/backend/init"
-	backendLocal "github.com/opentofu/opentofu/pkg/backend/local"
-	backendInmem "github.com/opentofu/opentofu/pkg/backend/remote-state/inmem"
+	backendInit "github.com/we-dcode/opentofu/pkg/backend/init"
+	backendLocal "github.com/we-dcode/opentofu/pkg/backend/local"
+	backendInmem "github.com/we-dcode/opentofu/pkg/backend/remote-state/inmem"
 )
 
 // Test empty directory with no config/state creates a local state.
@@ -662,7 +662,7 @@ func TestMetaBackend_configuredUnchanged(t *testing.T) {
 // and there's an argument overridden on the commandl ine.
 func TestMetaBackend_configuredUnchangedWithStaticEvalVars(t *testing.T) {
 	// This test is covering the fix for the following issue:
-	// https://github.com/opentofu/opentofu/issues/2024
+	// https://github.com/we-dcode/opentofu/issues/2024
 	//
 	// To match that issue's reproduction case the following must both be true:
 	// - The configuration written in the fixture's .tf file must include either a
@@ -687,7 +687,7 @@ func TestMetaBackend_configuredUnchangedWithStaticEvalVars(t *testing.T) {
 	// make sure that we always have a required field for the ConfigOverride
 	// argument to populate. This is covering the regression caused by the first
 	// fix to the original bug, discussed here:
-	//    https://github.com/opentofu/opentofu/issues/2118
+	//    https://github.com/we-dcode/opentofu/issues/2118
 	t.Cleanup(
 		backendInit.RegisterTemp("_test_local", func(enc encryption.StateEncryption) backend.Backend {
 			return &backendInit.MockBackend{
@@ -767,7 +767,7 @@ func TestMetaBackend_configuredUnchangedWithStaticEvalVars(t *testing.T) {
 		encryption.StateEncryptionDisabled(),
 	)
 	if diags.HasErrors() {
-		// The original problem reported in https://github.com/opentofu/opentofu/issues/2024
+		// The original problem reported in https://github.com/we-dcode/opentofu/issues/2024
 		// would return an error here: "Backend configuration has changed".
 		t.Fatal(diags.Err())
 	}

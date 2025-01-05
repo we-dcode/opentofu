@@ -21,14 +21,14 @@ import (
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/configs/configload"
-	"github.com/opentofu/opentofu/pkg/copy"
-	"github.com/opentofu/opentofu/pkg/registry"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/configs/configload"
+	"github.com/we-dcode/opentofu/pkg/copy"
+	"github.com/we-dcode/opentofu/pkg/registry"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 
-	_ "github.com/opentofu/opentofu/pkg/logging"
+	_ "github.com/we-dcode/opentofu/pkg/logging"
 )
 
 func TestMain(m *testing.M) {
@@ -287,7 +287,7 @@ func TestModuleInstaller_Prerelease(t *testing.T) {
 			// quirks of our version constraint matching.
 			//
 			// For more information:
-			//     https://github.com/opentofu/opentofu/issues/2117
+			//     https://github.com/we-dcode/opentofu/issues/2117
 		},
 		{
 			name:        "err",

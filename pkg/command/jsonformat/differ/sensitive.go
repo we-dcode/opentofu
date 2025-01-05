@@ -8,11 +8,11 @@ package differ
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed/renderers"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/structured"
-	"github.com/opentofu/opentofu/pkg/command/jsonprovider"
-	"github.com/opentofu/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed/renderers"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/structured"
+	"github.com/we-dcode/opentofu/pkg/command/jsonprovider"
+	"github.com/we-dcode/opentofu/pkg/plans"
 )
 
 type CreateSensitiveRenderer func(computed.Diff, bool, bool) computed.DiffRenderer

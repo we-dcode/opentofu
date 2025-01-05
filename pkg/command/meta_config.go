@@ -20,14 +20,14 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/configs/configload"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/initwd"
-	"github.com/opentofu/opentofu/pkg/registry"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/configs/configload"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/initwd"
+	"github.com/we-dcode/opentofu/pkg/registry"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 // normalizePath normalizes a given path so that it is, if possible, relative

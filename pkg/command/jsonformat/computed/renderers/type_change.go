@@ -8,7 +8,7 @@ package renderers
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed"
 )
 
 var _ computed.DiffRenderer = (*typeChangeRenderer)(nil)

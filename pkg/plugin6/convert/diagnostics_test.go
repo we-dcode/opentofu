@@ -11,8 +11,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	proto "github.com/opentofu/opentofu/pkg/tfplugin6"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	proto "github.com/we-dcode/opentofu/pkg/tfplugin6"
 	"github.com/zclconf/go-cty/cty"
 )
 

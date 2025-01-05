@@ -10,8 +10,8 @@ import (
 
 	"github.com/hashicorp/hcl/v2/gohcl"
 
-	config2 "github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/static"
+	config2 "github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/static"
 )
 
 var exampleConfig = `key_provider "static" "foo" {

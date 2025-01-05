@@ -5,7 +5,7 @@
 
 package configs
 
-import "github.com/opentofu/opentofu/pkg/addrs"
+import "github.com/we-dcode/opentofu/pkg/addrs"
 
 // Container provides an interface for scoped resources.
 //

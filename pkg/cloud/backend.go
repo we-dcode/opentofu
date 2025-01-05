@@ -27,18 +27,18 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/httpclient"
-	"github.com/opentofu/opentofu/pkg/plans"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	"github.com/opentofu/opentofu/pkg/tofu"
-	tfversion "github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/httpclient"
+	"github.com/we-dcode/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tofu"
+	tfversion "github.com/we-dcode/opentofu/version"
 
-	backendLocal "github.com/opentofu/opentofu/pkg/backend/local"
+	backendLocal "github.com/we-dcode/opentofu/pkg/backend/local"
 )
 
 const (

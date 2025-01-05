@@ -26,12 +26,12 @@ import (
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
 
-	"github.com/opentofu/opentofu/pkg/command/cliconfig"
-	"github.com/opentofu/opentofu/pkg/httpclient"
-	"github.com/opentofu/opentofu/pkg/logging"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	"github.com/opentofu/opentofu/pkg/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/command/cliconfig"
+	"github.com/we-dcode/opentofu/pkg/httpclient"
+	"github.com/we-dcode/opentofu/pkg/logging"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/version"
 
 	uuid "github.com/hashicorp/go-uuid"
 	"golang.org/x/oauth2"

@@ -8,7 +8,7 @@ package pbkdf2
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 )
 
 // Metadata describes the metadata to be stored alongside the encrypted form.

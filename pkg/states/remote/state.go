@@ -13,12 +13,12 @@ import (
 
 	uuid "github.com/hashicorp/go-uuid"
 
-	"github.com/opentofu/opentofu/pkg/backend/local"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/states/statefile"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/backend/local"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states/statefile"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 // State implements the State interfaces in the state package to handle

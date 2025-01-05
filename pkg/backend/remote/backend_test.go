@@ -15,14 +15,14 @@ import (
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	tfversion "github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	tfversion "github.com/we-dcode/opentofu/version"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "github.com/opentofu/opentofu/pkg/backend/local"
+	backendLocal "github.com/we-dcode/opentofu/pkg/backend/local"
 )
 
 func TestRemote(t *testing.T) {

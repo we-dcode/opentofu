@@ -8,7 +8,7 @@ package jsonchecks
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 type staticObjectAddr map[string]interface{}

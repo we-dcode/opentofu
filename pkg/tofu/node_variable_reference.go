@@ -10,11 +10,11 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/dag"
-	"github.com/opentofu/opentofu/pkg/lang"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/dag"
+	"github.com/we-dcode/opentofu/pkg/lang"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // nodeVariableReference is the placeholder for an variable reference that has not yet had

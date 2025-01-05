@@ -11,9 +11,9 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/configs/hcl2shim"
-	"github.com/opentofu/opentofu/pkg/legacy/tofu"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/hcl2shim"
+	"github.com/we-dcode/opentofu/pkg/legacy/tofu"
 )
 
 // DiffFromValues takes the current state and desired state as cty.Values and

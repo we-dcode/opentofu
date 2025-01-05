@@ -9,8 +9,8 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
 )
 
 // PlanEncryption describes the methods that you can use for encrypting a plan file. Plan files are opaque values with

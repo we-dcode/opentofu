@@ -8,7 +8,7 @@ package getproviders
 import (
 	"context"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // A Source can query a particular source for information about providers

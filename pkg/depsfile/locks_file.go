@@ -16,11 +16,11 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/getproviders"
-	"github.com/opentofu/opentofu/pkg/replacefile"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	"github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/replacefile"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/version"
 )
 
 // LoadLocksFromFile reads locks from the given file, expecting it to be a

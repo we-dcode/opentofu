@@ -12,14 +12,14 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/logging"
-	"github.com/opentofu/opentofu/pkg/providers"
-	"github.com/opentofu/opentofu/pkg/provisioners"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/logging"
+	"github.com/we-dcode/opentofu/pkg/providers"
+	"github.com/we-dcode/opentofu/pkg/provisioners"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

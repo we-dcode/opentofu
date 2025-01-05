@@ -10,11 +10,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/mitchellh/reflectwalk"
-	"github.com/opentofu/opentofu/pkg/configs/hcl2shim"
+	"github.com/we-dcode/opentofu/pkg/configs/hcl2shim"
 )
 
 func TestResourceConfigGet(t *testing.T) {

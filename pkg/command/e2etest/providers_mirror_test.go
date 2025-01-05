@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/opentofu/opentofu/pkg/e2e"
+	"github.com/we-dcode/opentofu/pkg/e2e"
 )
 
 // The tests in this file are for the "tofu providers mirror" command,

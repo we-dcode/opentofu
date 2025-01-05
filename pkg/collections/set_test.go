@@ -8,7 +8,7 @@ package collections_test
 import (
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/collections"
+	"github.com/we-dcode/opentofu/pkg/collections"
 )
 
 type hasTestCase struct {

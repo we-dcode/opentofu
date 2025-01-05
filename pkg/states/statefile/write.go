@@ -8,8 +8,8 @@ package statefile
 import (
 	"io"
 
-	"github.com/opentofu/opentofu/pkg/encryption"
-	tfversion "github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	tfversion "github.com/we-dcode/opentofu/version"
 )
 
 // Write writes the given state to the given writer in the current state

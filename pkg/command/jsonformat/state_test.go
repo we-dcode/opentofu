@@ -12,18 +12,18 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/opentofu/opentofu/pkg/command/jsonprovider"
-	"github.com/opentofu/opentofu/pkg/command/jsonstate"
-	"github.com/opentofu/opentofu/pkg/states/statefile"
-	"github.com/opentofu/opentofu/pkg/terminal"
+	"github.com/we-dcode/opentofu/pkg/command/jsonprovider"
+	"github.com/we-dcode/opentofu/pkg/command/jsonstate"
+	"github.com/we-dcode/opentofu/pkg/states/statefile"
+	"github.com/we-dcode/opentofu/pkg/terminal"
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/providers"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/providers"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 func TestState(t *testing.T) {

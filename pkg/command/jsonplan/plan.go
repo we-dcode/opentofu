@@ -15,16 +15,16 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/command/jsonchecks"
-	"github.com/opentofu/opentofu/pkg/command/jsonconfig"
-	"github.com/opentofu/opentofu/pkg/command/jsonstate"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/plans"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/states/statefile"
-	"github.com/opentofu/opentofu/pkg/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/command/jsonchecks"
+	"github.com/we-dcode/opentofu/pkg/command/jsonconfig"
+	"github.com/we-dcode/opentofu/pkg/command/jsonstate"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states/statefile"
+	"github.com/we-dcode/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/version"
 )
 
 // FormatVersion represents the version of the json format and will be

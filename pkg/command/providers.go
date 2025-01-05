@@ -12,9 +12,9 @@ import (
 
 	"github.com/xlab/treeprint"
 
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/getproviders"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // ProvidersCommand is a Command implementation that prints out information

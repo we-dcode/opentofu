@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opentofu/opentofu/pkg/logging"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/logging"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // Walker is used to walk every vertex of a graph in parallel.

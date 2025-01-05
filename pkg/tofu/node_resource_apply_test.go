@@ -8,10 +8,10 @@ package tofu
 import (
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/instances"
-	"github.com/opentofu/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/instances"
+	"github.com/we-dcode/opentofu/pkg/states"
 )
 
 func TestNodeExpandApplyableResourceExecute(t *testing.T) {

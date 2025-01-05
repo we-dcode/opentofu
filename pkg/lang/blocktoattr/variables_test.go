@@ -13,7 +13,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	hcljson "github.com/hashicorp/hcl/v2/json"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

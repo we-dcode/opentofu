@@ -6,8 +6,8 @@
 package providercache
 
 import (
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
 )
 
 type testInstallerEventLogItem struct {

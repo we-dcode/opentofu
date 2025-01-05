@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/encryption"
 )
 
 func TestInit_backend(t *testing.T) {

@@ -6,7 +6,7 @@
 package pg
 
 // Create the test database: createdb terraform_backend_pg_test
-// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/opentofu/opentofu/backend/remote-state/pg
+// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/we-dcode/opentofu/backend/remote-state/pg
 
 import (
 	"database/sql"
@@ -18,11 +18,11 @@ import (
 
 	"github.com/hashicorp/hcl/v2/hcldec"
 	"github.com/lib/pq"
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/states/remote"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/states/remote"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // Function to skip a test unless in ACCeptance test mode.

@@ -17,9 +17,9 @@ import (
 	"strings"
 
 	"github.com/mitchellh/cli"
-	"github.com/opentofu/opentofu/pkg/communicator"
-	"github.com/opentofu/opentofu/pkg/communicator/remote"
-	"github.com/opentofu/opentofu/pkg/provisioners"
+	"github.com/we-dcode/opentofu/pkg/communicator"
+	"github.com/we-dcode/opentofu/pkg/communicator/remote"
+	"github.com/we-dcode/opentofu/pkg/provisioners"
 	"github.com/zclconf/go-cty/cty"
 )
 

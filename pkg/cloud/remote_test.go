@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/opentofu/opentofu/pkg/logging"
+	_ "github.com/we-dcode/opentofu/pkg/logging"
 )
 
 func TestMain(m *testing.M) {

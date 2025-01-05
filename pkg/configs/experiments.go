@@ -9,15 +9,15 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/pkg/experiments"
-	"github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/experiments"
+	"github.com/we-dcode/opentofu/version"
 )
 
 // When developing UI for experimental features, you can temporarily disable
 // the experiment warning by setting this package-level variable to a non-empty
 // value using a link-time flag:
 //
-// go install -ldflags="-X 'github.com/opentofu/opentofu/pkg/configs.disableExperimentWarnings=yes'"
+// go install -ldflags="-X 'github.com/we-dcode/opentofu/pkg/configs.disableExperimentWarnings=yes'"
 //
 // This functionality is for development purposes only and is not a feature we
 // are committing to supporting for end users.

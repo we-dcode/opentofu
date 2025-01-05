@@ -13,11 +13,11 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
 
-	"github.com/opentofu/opentofu/pkg/command/arguments"
-	"github.com/opentofu/opentofu/pkg/command/clistate"
-	"github.com/opentofu/opentofu/pkg/command/views"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/command/arguments"
+	"github.com/we-dcode/opentofu/pkg/command/clistate"
+	"github.com/we-dcode/opentofu/pkg/command/views"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 type WorkspaceDeleteCommand struct {

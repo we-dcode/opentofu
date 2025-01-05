@@ -1,4 +1,4 @@
-module github.com/opentofu/opentofu
+module github.com/we-dcode/opentofu
 
 require (
 	cloud.google.com/go/kms v1.15.5

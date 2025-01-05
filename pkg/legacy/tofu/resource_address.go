@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
 )
 
 // ResourceAddress is a way of identifying an individual resource (or,

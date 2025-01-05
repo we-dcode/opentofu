@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/legacy/tofu"
+	"github.com/we-dcode/opentofu/pkg/legacy/tofu"
 )
 
 func TestDiffFieldReader_impl(t *testing.T) {

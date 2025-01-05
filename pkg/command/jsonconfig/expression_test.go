@@ -15,7 +15,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/hashicorp/hcl/v2/hcltest"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
 )
 
 func TestMarshalExpressions(t *testing.T) {

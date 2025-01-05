@@ -15,7 +15,7 @@ import (
 	"testing"
 
 	openbao "github.com/openbao/openbao/api"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/compliancetest"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/compliancetest"
 )
 
 func getBaoKeyName() string {

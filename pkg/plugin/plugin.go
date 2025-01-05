@@ -7,7 +7,7 @@ package plugin
 
 import (
 	"github.com/hashicorp/go-plugin"
-	"github.com/opentofu/opentofu/pkg/plugin6"
+	"github.com/we-dcode/opentofu/pkg/plugin6"
 )
 
 // VersionedPlugins includes both protocol 5 and 6 because this is the function

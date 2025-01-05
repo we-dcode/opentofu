@@ -11,8 +11,8 @@ import (
 	"io"
 	"log"
 
-	"github.com/opentofu/opentofu/pkg/cloudplugin"
-	"github.com/opentofu/opentofu/pkg/cloudplugin/cloudproto1"
+	"github.com/we-dcode/opentofu/pkg/cloudplugin"
+	"github.com/we-dcode/opentofu/pkg/cloudplugin/cloudproto1"
 )
 
 // GRPCCloudClient is the client interface for interacting with terraform-cloudplugin

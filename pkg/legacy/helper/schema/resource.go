@@ -11,7 +11,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/opentofu/opentofu/pkg/legacy/tofu"
+	"github.com/we-dcode/opentofu/pkg/legacy/tofu"
 	"github.com/zclconf/go-cty/cty"
 )
 

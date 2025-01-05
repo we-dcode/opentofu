@@ -9,8 +9,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/plans/planfile"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/plans/planfile"
 )
 
 // NOTE: Temporary file until this branch is cleaned up.

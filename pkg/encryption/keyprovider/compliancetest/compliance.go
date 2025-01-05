@@ -13,9 +13,9 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hcl/v2/gohcl"
-	"github.com/opentofu/opentofu/pkg/encryption/compliancetest"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/compliancetest"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 )
 
 func ComplianceTest[TDescriptor keyprovider.Descriptor, TConfig keyprovider.Config, TMeta keyprovider.KeyMeta, TKeyProvider keyprovider.KeyProvider](

@@ -8,7 +8,7 @@ package static
 import (
 	"encoding/hex"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 )
 
 // Config contains the configuration for this key provider supplied by the user. This struct must have hcl tags in order

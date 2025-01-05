@@ -18,11 +18,11 @@ import (
 	"github.com/zclconf/go-cty/cty/msgpack"
 	"google.golang.org/grpc"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/logging"
-	"github.com/opentofu/opentofu/pkg/plugin/convert"
-	"github.com/opentofu/opentofu/pkg/providers"
-	proto "github.com/opentofu/opentofu/pkg/tfplugin5"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/logging"
+	"github.com/we-dcode/opentofu/pkg/plugin/convert"
+	"github.com/we-dcode/opentofu/pkg/providers"
+	proto "github.com/we-dcode/opentofu/pkg/tfplugin5"
 )
 
 var logger = logging.HCLogger()

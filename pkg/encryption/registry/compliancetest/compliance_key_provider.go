@@ -9,8 +9,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
-	"github.com/opentofu/opentofu/pkg/encryption/registry"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/registry"
 )
 
 func complianceTestKeyProviders(t *testing.T, factory func() registry.Registry) {

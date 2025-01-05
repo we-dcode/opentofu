@@ -10,7 +10,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 )
 
 // HashFunction is a provider of a hash.Hash.

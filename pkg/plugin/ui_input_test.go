@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-plugin"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 func TestUIInput_impl(t *testing.T) {

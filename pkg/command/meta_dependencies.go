@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/opentofu/opentofu/pkg/depsfile"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/depsfile"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // dependencyLockFilename is the filename of the dependency lock file.

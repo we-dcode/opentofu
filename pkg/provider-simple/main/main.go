@@ -6,10 +6,10 @@
 package main
 
 import (
-	"github.com/opentofu/opentofu/pkg/grpcwrap"
-	"github.com/opentofu/opentofu/pkg/plugin"
-	simple "github.com/opentofu/opentofu/pkg/provider-simple"
-	"github.com/opentofu/opentofu/pkg/tfplugin5"
+	"github.com/we-dcode/opentofu/pkg/grpcwrap"
+	"github.com/we-dcode/opentofu/pkg/plugin"
+	simple "github.com/we-dcode/opentofu/pkg/provider-simple"
+	"github.com/we-dcode/opentofu/pkg/tfplugin5"
 )
 
 func main() {

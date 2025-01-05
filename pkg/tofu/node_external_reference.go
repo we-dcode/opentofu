@@ -5,7 +5,7 @@
 
 package tofu
 
-import "github.com/opentofu/opentofu/pkg/addrs"
+import "github.com/we-dcode/opentofu/pkg/addrs"
 
 // nodeExternalReference allows external callers (such as the testing framework)
 // to provide the list of references they are making into the graph. This

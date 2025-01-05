@@ -12,8 +12,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/opentofu/opentofu/pkg/configs/hcl2shim"
-	"github.com/opentofu/opentofu/pkg/legacy/tofu"
+	"github.com/we-dcode/opentofu/pkg/configs/hcl2shim"
+	"github.com/we-dcode/opentofu/pkg/legacy/tofu"
 )
 
 // testSetFunc is a very simple function we use to test a foo/bar complex set.

@@ -17,10 +17,10 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"
 
-	viewsjson "github.com/opentofu/opentofu/pkg/command/views/json"
-	"github.com/opentofu/opentofu/pkg/lang/marks"
+	viewsjson "github.com/we-dcode/opentofu/pkg/command/views/json"
+	"github.com/we-dcode/opentofu/pkg/lang/marks"
 
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 func TestDiagnostic(t *testing.T) {

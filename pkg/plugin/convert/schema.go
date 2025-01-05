@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/providers"
-	proto "github.com/opentofu/opentofu/pkg/tfplugin5"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/providers"
+	proto "github.com/we-dcode/opentofu/pkg/tfplugin5"
 )
 
 // ConfigSchemaToProto takes a *configschema.Block and converts it to a

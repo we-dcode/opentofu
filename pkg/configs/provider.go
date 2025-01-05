@@ -13,10 +13,10 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/instances"
-	"github.com/opentofu/opentofu/pkg/lang/evalchecks"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/instances"
+	"github.com/we-dcode/opentofu/pkg/lang/evalchecks"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // Provider represents a "provider" block in a module or file. A provider

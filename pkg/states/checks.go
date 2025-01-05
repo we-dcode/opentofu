@@ -6,8 +6,8 @@
 package states
 
 import (
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/checks"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/checks"
 )
 
 // CheckResults represents a summary snapshot of the status of a set of checks

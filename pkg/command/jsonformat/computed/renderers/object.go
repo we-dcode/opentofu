@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed"
-	"github.com/opentofu/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed"
+	"github.com/we-dcode/opentofu/pkg/plans"
 )
 
 var _ computed.DiffRenderer = (*objectRenderer)(nil)

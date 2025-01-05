@@ -13,8 +13,8 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	proto "github.com/opentofu/opentofu/pkg/tfplugin5"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	proto "github.com/we-dcode/opentofu/pkg/tfplugin5"
 	"github.com/zclconf/go-cty/cty"
 )
 

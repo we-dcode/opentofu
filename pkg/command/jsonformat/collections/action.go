@@ -5,7 +5,7 @@
 
 package collections
 
-import "github.com/opentofu/opentofu/pkg/plans"
+import "github.com/we-dcode/opentofu/pkg/plans"
 
 // CompareActions will compare current and next, and return plans.Update if they
 // are different, and current if they are the same.

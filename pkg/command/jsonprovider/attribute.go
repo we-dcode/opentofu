@@ -8,7 +8,7 @@ package jsonprovider
 import (
 	"encoding/json"
 
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

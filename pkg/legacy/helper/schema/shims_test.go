@@ -16,12 +16,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/configs/hcl2shim"
-	"github.com/opentofu/opentofu/pkg/legacy/helper/hashcode"
-	"github.com/opentofu/opentofu/pkg/legacy/tofu"
-	"github.com/opentofu/opentofu/pkg/providers"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/hcl2shim"
+	"github.com/we-dcode/opentofu/pkg/legacy/helper/hashcode"
+	"github.com/we-dcode/opentofu/pkg/legacy/tofu"
+	"github.com/we-dcode/opentofu/pkg/providers"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

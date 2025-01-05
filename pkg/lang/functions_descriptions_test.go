@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/lang/funcs"
+	"github.com/we-dcode/opentofu/pkg/lang/funcs"
 )
 
 func TestFunctionDescriptions(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/e2e"
+	"github.com/we-dcode/opentofu/pkg/e2e"
 )
 
 // This is an e2e test as it relies on very specific configuration

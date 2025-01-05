@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/e2e"
+	"github.com/we-dcode/opentofu/pkg/e2e"
 )
 
 func TestFunction_Simple(t *testing.T) {

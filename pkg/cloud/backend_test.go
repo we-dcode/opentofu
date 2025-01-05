@@ -14,13 +14,13 @@ import (
 
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	tfversion "github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	tfversion "github.com/we-dcode/opentofu/version"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "github.com/opentofu/opentofu/pkg/backend/local"
+	backendLocal "github.com/we-dcode/opentofu/pkg/backend/local"
 )
 
 func TestCloud(t *testing.T) {
@@ -278,7 +278,7 @@ func TestCloud_PrepareConfigWithEnvVars(t *testing.T) {
 			},
 		},
 		"with workspace defined by tags overwritten by TF_WORKSPACE": {
-			// see https://github.com/opentofu/opentofu/issues/814 for context
+			// see https://github.com/we-dcode/opentofu/issues/814 for context
 			config: cty.ObjectVal(map[string]cty.Value{
 				"hostname":     cty.StringVal("foo"),
 				"organization": cty.StringVal("bar"),
@@ -293,7 +293,7 @@ func TestCloud_PrepareConfigWithEnvVars(t *testing.T) {
 			},
 		},
 		"with TF_WORKSPACE value outside of the tags set": {
-			// see https://github.com/opentofu/opentofu/issues/814 for context
+			// see https://github.com/we-dcode/opentofu/issues/814 for context
 			config: cty.ObjectVal(map[string]cty.Value{
 				"hostname":     cty.StringVal("foo"),
 				"organization": cty.StringVal("bar"),
@@ -685,7 +685,7 @@ func TestCloud_setConfigurationFieldsHappyPath(t *testing.T) {
 			expectedForceLocal: true,
 		},
 		"with hostname and workspace tags set, then tags should not be overwritten by TF_WORKSPACE": {
-			// see: https://github.com/opentofu/opentofu/issues/814
+			// see: https://github.com/we-dcode/opentofu/issues/814
 			obj: cty.ObjectVal(map[string]cty.Value{
 				"organization": cty.NullVal(cty.String),
 				"hostname":     cty.StringVal("opentofu.org"),

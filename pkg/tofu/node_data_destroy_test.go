@@ -8,8 +8,8 @@ package tofu
 import (
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/states"
 )
 
 func TestNodeDataDestroyExecute(t *testing.T) {

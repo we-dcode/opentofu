@@ -12,12 +12,12 @@ import (
 	"github.com/go-test/deep"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/checks"
-	"github.com/opentofu/opentofu/pkg/lang/globalref"
-	"github.com/opentofu/opentofu/pkg/lang/marks"
-	"github.com/opentofu/opentofu/pkg/plans"
-	"github.com/opentofu/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/checks"
+	"github.com/we-dcode/opentofu/pkg/lang/globalref"
+	"github.com/we-dcode/opentofu/pkg/lang/marks"
+	"github.com/we-dcode/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/states"
 )
 
 func TestTFPlanRoundTrip(t *testing.T) {

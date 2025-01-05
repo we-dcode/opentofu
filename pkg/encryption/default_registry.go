@@ -6,13 +6,13 @@
 package encryption
 
 import (
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/aws_kms"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/gcp_kms"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/openbao"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/pbkdf2"
-	"github.com/opentofu/opentofu/pkg/encryption/method/aesgcm"
-	"github.com/opentofu/opentofu/pkg/encryption/method/unencrypted"
-	"github.com/opentofu/opentofu/pkg/encryption/registry/lockingencryptionregistry"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/aws_kms"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/gcp_kms"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/openbao"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/pbkdf2"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/aesgcm"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/unencrypted"
+	"github.com/we-dcode/opentofu/pkg/encryption/registry/lockingencryptionregistry"
 )
 
 var DefaultRegistry = lockingencryptionregistry.New()

@@ -12,15 +12,15 @@ import (
 	"testing"
 
 	"github.com/mitchellh/cli"
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/backend"
-	"github.com/opentofu/opentofu/pkg/backend/local"
-	"github.com/opentofu/opentofu/pkg/backend/remote-state/inmem"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/states/statemgr"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/backend/local"
+	"github.com/we-dcode/opentofu/pkg/backend/remote-state/inmem"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states/statemgr"
 
-	legacy "github.com/opentofu/opentofu/pkg/legacy/tofu"
+	legacy "github.com/we-dcode/opentofu/pkg/legacy/tofu"
 )
 
 func TestWorkspace_createAndChange(t *testing.T) {

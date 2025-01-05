@@ -10,8 +10,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/configs"
 )
 
 // State is a container for state tracking of all of the checks declared in

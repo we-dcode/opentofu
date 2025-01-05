@@ -10,11 +10,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
-	"github.com/opentofu/opentofu/pkg/encryption/method"
-	"github.com/opentofu/opentofu/pkg/encryption/method/unencrypted"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/method"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/unencrypted"
 
 	"github.com/hashicorp/hcl/v2"
 )

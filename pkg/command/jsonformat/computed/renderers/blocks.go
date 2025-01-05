@@ -8,7 +8,7 @@ package renderers
 import (
 	"sort"
 
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed"
 )
 
 // Blocks is a helper struct for collating the different kinds of blocks in a

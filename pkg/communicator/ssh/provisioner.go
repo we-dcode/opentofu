@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opentofu/opentofu/pkg/communicator/shared"
+	"github.com/we-dcode/opentofu/pkg/communicator/shared"
 	sshagent "github.com/xanzy/ssh-agent"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

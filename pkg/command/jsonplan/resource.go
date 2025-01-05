@@ -8,7 +8,7 @@ package jsonplan
 import (
 	"encoding/json"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // Resource is the representation of a resource in the json plan

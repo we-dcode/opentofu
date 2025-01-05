@@ -10,7 +10,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/getmodules"
+	"github.com/we-dcode/opentofu/pkg/getmodules"
 	tfaddr "github.com/opentofu/registry-address"
 )
 

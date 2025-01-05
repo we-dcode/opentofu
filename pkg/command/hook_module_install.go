@@ -10,7 +10,7 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/mitchellh/cli"
-	"github.com/opentofu/opentofu/pkg/initwd"
+	"github.com/we-dcode/opentofu/pkg/initwd"
 )
 
 type uiModuleInstallHooks struct {

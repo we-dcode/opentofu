@@ -8,7 +8,7 @@ package providers
 import (
 	"sort"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // AddressedTypesAbs is a helper that extracts all of the distinct provider

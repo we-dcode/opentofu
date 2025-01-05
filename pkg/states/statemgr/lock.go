@@ -6,8 +6,8 @@
 package statemgr
 
 import (
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 // LockDisabled implements State and Locker but disables state locking.

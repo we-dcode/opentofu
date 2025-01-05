@@ -8,8 +8,8 @@ package globalref
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/lang"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/lang"
 )
 
 // ReferencesFromOutputValue returns all of the direct references from the

@@ -9,8 +9,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/tofu"
 )
 
 // NewFullFake returns a full state manager that really only supports transient

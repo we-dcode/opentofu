@@ -8,7 +8,7 @@ package schema
 import (
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/legacy/tofu"
+	"github.com/we-dcode/opentofu/pkg/legacy/tofu"
 )
 
 // TestResourceDataRaw creates a ResourceData from a raw configuration map.

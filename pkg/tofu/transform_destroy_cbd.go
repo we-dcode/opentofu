@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/opentofu/opentofu/pkg/dag"
+	"github.com/we-dcode/opentofu/pkg/dag"
 )
 
 // GraphNodeDestroyerCBD must be implemented by nodes that might be

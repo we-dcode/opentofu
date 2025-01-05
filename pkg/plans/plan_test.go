@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-test/deep"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 func TestProviderAddrs(t *testing.T) {

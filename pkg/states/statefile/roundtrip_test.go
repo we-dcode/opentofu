@@ -14,8 +14,8 @@ import (
 	"testing"
 
 	"github.com/go-test/deep"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/encryption/enctest"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/encryption/enctest"
 )
 
 func TestRoundtrip(t *testing.T) {

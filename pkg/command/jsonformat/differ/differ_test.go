@@ -13,11 +13,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed/renderers"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/structured"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/structured/attribute_path"
-	"github.com/opentofu/opentofu/pkg/command/jsonprovider"
-	"github.com/opentofu/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed/renderers"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/structured"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/structured/attribute_path"
+	"github.com/we-dcode/opentofu/pkg/command/jsonprovider"
+	"github.com/we-dcode/opentofu/pkg/plans"
 )
 
 type SetDiff struct {
@@ -2851,7 +2851,7 @@ func TestSpecificCases(t *testing.T) {
 				}, plans.Update, false),
 			}, nil, nil, nil, nil, plans.Update, false),
 		},
-		// Following tests are from issue 1805. https://github.com/opentofu/opentofu/issues/1805.
+		// Following tests are from issue 1805. https://github.com/we-dcode/opentofu/issues/1805.
 		// The issue is about handling unknown dynamic nested blocks. In these cases unknown nested blocks are
 		// not shown at all but they should be listed as unknown in the diff.
 		"issues/1805/create_with_unknown_dynamic_nested_block": {

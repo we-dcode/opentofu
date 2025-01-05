@@ -7,7 +7,7 @@ package configs
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/pkg/configs/hcl2shim"
+	"github.com/we-dcode/opentofu/pkg/configs/hcl2shim"
 	"github.com/zclconf/go-cty/cty"
 )
 

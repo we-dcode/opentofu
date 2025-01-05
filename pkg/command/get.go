@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/command/views"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/command/views"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 // GetCommand is a Command implementation that takes a OpenTofu

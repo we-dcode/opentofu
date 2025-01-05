@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/e2e"
-	"github.com/opentofu/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/e2e"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
 )
 
 // TestProviderTampering tests various ways that the provider plugins in the

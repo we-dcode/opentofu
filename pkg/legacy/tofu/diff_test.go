@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 func TestDiffEmpty(t *testing.T) {

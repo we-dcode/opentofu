@@ -6,7 +6,7 @@
 package main
 
 import (
-	"github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/version"
 )
 
 var Version = version.Version

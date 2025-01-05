@@ -16,15 +16,15 @@ import (
 
 	plugin "github.com/hashicorp/go-plugin"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	terraformProvider "github.com/opentofu/opentofu/pkg/builtin/providers/tf"
-	"github.com/opentofu/opentofu/pkg/getproviders"
-	"github.com/opentofu/opentofu/pkg/logging"
-	tfplugin "github.com/opentofu/opentofu/pkg/plugin"
-	tfplugin6 "github.com/opentofu/opentofu/pkg/plugin6"
-	"github.com/opentofu/opentofu/pkg/providercache"
-	"github.com/opentofu/opentofu/pkg/providers"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	terraformProvider "github.com/we-dcode/opentofu/pkg/builtin/providers/tf"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/logging"
+	tfplugin "github.com/we-dcode/opentofu/pkg/plugin"
+	tfplugin6 "github.com/we-dcode/opentofu/pkg/plugin6"
+	"github.com/we-dcode/opentofu/pkg/providercache"
+	"github.com/we-dcode/opentofu/pkg/providers"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 var errUnsupportedProtocolVersion = errors.New("unsupported protocol version")

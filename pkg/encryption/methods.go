@@ -11,10 +11,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/gohcl"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/method"
-	"github.com/opentofu/opentofu/pkg/encryption/method/unencrypted"
-	"github.com/opentofu/opentofu/pkg/encryption/registry"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/method"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/unencrypted"
+	"github.com/we-dcode/opentofu/pkg/encryption/registry"
 	"github.com/zclconf/go-cty/cty"
 )
 

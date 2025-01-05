@@ -10,8 +10,8 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2/gohcl"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/pbkdf2"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/pbkdf2"
 )
 
 var metadataExampleConfiguration = `key_provider "pbkdf2" "foo" {

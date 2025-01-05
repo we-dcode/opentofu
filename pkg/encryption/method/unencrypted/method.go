@@ -6,7 +6,7 @@
 package unencrypted
 
 import (
-	"github.com/opentofu/opentofu/pkg/encryption/method"
+	"github.com/we-dcode/opentofu/pkg/encryption/method"
 )
 
 func New() method.Descriptor {

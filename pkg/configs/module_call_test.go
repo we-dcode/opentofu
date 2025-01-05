@@ -12,7 +12,7 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 func TestLoadModuleCall(t *testing.T) {
@@ -127,7 +127,7 @@ func TestLoadModuleCall(t *testing.T) {
 	// else properly.
 	for _, m := range gotModules {
 		// This is a structural issue which existed before static evaluation, but has been made worse by it
-		// See https://github.com/opentofu/opentofu/issues/1467 for more details
+		// See https://github.com/we-dcode/opentofu/issues/1467 for more details
 		eval := NewStaticEvaluator(nil, RootModuleCallForTesting())
 		diags := m.decodeStaticFields(eval)
 		if diags.HasErrors() {

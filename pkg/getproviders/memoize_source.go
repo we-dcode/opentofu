@@ -9,7 +9,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // MemoizeSource is a Source that wraps another Source and remembers its

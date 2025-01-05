@@ -8,7 +8,7 @@ package openbao
 import (
 	"context"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 )
 
 type keyMeta struct {

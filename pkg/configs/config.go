@@ -13,9 +13,9 @@ import (
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/depsfile"
-	"github.com/opentofu/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/depsfile"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
 )
 
 // A Config is a node in the tree of modules within a configuration.

@@ -17,7 +17,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/opentofu/opentofu/pkg/e2e"
+	"github.com/we-dcode/opentofu/pkg/e2e"
 )
 
 func TestInitProviders(t *testing.T) {
@@ -432,7 +432,7 @@ func TestInitProviderNotFound(t *testing.T) {
 		}
 
 		oneLineStdout := strings.ReplaceAll(stdout, "\n", " ")
-		if !strings.Contains(oneLineStdout, `"diagnostic":{"severity":"error","summary":"Failed to query available provider packages","detail":"Could not retrieve the list of available versions for provider hashicorp/nonexist: provider registry registry.opentofu.org does not have a provider named registry.opentofu.org/hashicorp/nonexist\n\nAll modules should specify their required_providers so that external consumers will get the correct providers when using a module. To see which modules are currently depending on hashicorp/nonexist, run the following command:\n    tofu providers\n\nIf you believe this provider is missing from the registry, please submit a issue on the OpenTofu Registry https://github.com/opentofu/registry/issues/new/choose"},"type":"diagnostic"}`) {
+		if !strings.Contains(oneLineStdout, `"diagnostic":{"severity":"error","summary":"Failed to query available provider packages","detail":"Could not retrieve the list of available versions for provider hashicorp/nonexist: provider registry registry.opentofu.org does not have a provider named registry.opentofu.org/hashicorp/nonexist\n\nAll modules should specify their required_providers so that external consumers will get the correct providers when using a module. To see which modules are currently depending on hashicorp/nonexist, run the following command:\n    tofu providers\n\nIf you believe this provider is missing from the registry, please submit a issue on the OpenTofu Registry https://github.com/we-dcode/registry/issues/new/choose"},"type":"diagnostic"}`) {
 			t.Errorf("expected error message is missing from output:\n%s", stdout)
 		}
 	})
@@ -494,7 +494,7 @@ func TestInitProviderNotFound(t *testing.T) {
 │ 
 │ If you believe this provider is missing from the registry, please submit a
 │ issue on the OpenTofu Registry
-│ https://github.com/opentofu/registry/issues/new/choose
+│ https://github.com/we-dcode/registry/issues/new/choose
 ╵
 
 `
@@ -505,7 +505,7 @@ func TestInitProviderNotFound(t *testing.T) {
 }
 
 // The following test is temporarily removed until the OpenTofu registry returns a deprecation warning
-// https://github.com/opentofu/registry/issues/108
+// https://github.com/we-dcode/registry/issues/108
 //func TestInitProviderWarnings(t *testing.T) {
 //	t.Parallel()
 //

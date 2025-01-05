@@ -5,7 +5,7 @@
 
 package tofu
 
-import "github.com/opentofu/opentofu/pkg/dag"
+import "github.com/we-dcode/opentofu/pkg/dag"
 
 // GraphDot returns the dot formatting of a visual representation of
 // the given OpenTofu graph.

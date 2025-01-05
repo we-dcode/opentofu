@@ -9,7 +9,7 @@ package static
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 )
 
 type staticKeyProvider struct {

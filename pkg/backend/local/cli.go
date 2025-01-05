@@ -8,7 +8,7 @@ package local
 import (
 	"log"
 
-	"github.com/opentofu/opentofu/pkg/backend"
+	"github.com/we-dcode/opentofu/pkg/backend"
 )
 
 // backend.CLI impl.

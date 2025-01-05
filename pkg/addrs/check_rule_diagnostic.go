@@ -5,7 +5,7 @@
 
 package addrs
 
-import "github.com/opentofu/opentofu/pkg/tfdiags"
+import "github.com/we-dcode/opentofu/pkg/tfdiags"
 
 // DiagnosticExtraCheckRule provides an interface for diagnostic ExtraInfo to
 // retrieve an embedded CheckRule from within a tfdiags.Diagnostic.

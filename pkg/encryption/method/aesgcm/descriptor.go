@@ -6,8 +6,8 @@
 package aesgcm
 
 import (
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
-	"github.com/opentofu/opentofu/pkg/encryption/method"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/method"
 )
 
 // Descriptor integrates the method.Descriptor and provides a TypedConfig for easier configuration.

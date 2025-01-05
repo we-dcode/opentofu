@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/pbkdf2"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/xor"
-	"github.com/opentofu/opentofu/pkg/encryption/method/aesgcm"
-	"github.com/opentofu/opentofu/pkg/encryption/method/unencrypted"
-	"github.com/opentofu/opentofu/pkg/encryption/registry/lockingencryptionregistry"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/pbkdf2"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/xor"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/aesgcm"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/unencrypted"
+	"github.com/we-dcode/opentofu/pkg/encryption/registry/lockingencryptionregistry"
 )
 
 func TestChangingKeyProviderAddr(t *testing.T) {

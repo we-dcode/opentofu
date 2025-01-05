@@ -21,22 +21,22 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/opentofu/opentofu/pkg/addrs"
-	"github.com/opentofu/opentofu/pkg/backend"
-	backendInit "github.com/opentofu/opentofu/pkg/backend/init"
-	"github.com/opentofu/opentofu/pkg/cloud"
-	"github.com/opentofu/opentofu/pkg/command/arguments"
-	"github.com/opentofu/opentofu/pkg/command/views"
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/configs/configschema"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/getproviders"
-	"github.com/opentofu/opentofu/pkg/providercache"
-	"github.com/opentofu/opentofu/pkg/states"
-	"github.com/opentofu/opentofu/pkg/tfdiags"
-	"github.com/opentofu/opentofu/pkg/tofu"
-	"github.com/opentofu/opentofu/pkg/tofumigrate"
-	tfversion "github.com/opentofu/opentofu/version"
+	"github.com/we-dcode/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/backend"
+	backendInit "github.com/we-dcode/opentofu/pkg/backend/init"
+	"github.com/we-dcode/opentofu/pkg/cloud"
+	"github.com/we-dcode/opentofu/pkg/command/arguments"
+	"github.com/we-dcode/opentofu/pkg/command/views"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/configs/configschema"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/providercache"
+	"github.com/we-dcode/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tofu"
+	"github.com/we-dcode/opentofu/pkg/tofumigrate"
+	tfversion "github.com/we-dcode/opentofu/version"
 )
 
 // InitCommand is a Command implementation that takes a Terraform
@@ -709,7 +709,7 @@ func (c *InitCommand) getProviders(ctx context.Context, config *configs.Config, 
 				}
 
 				if provider.Hostname == addrs.DefaultProviderRegistryHost {
-					suggestion += "\n\nIf you believe this provider is missing from the registry, please submit a issue on the OpenTofu Registry https://github.com/opentofu/registry/issues/new/choose"
+					suggestion += "\n\nIf you believe this provider is missing from the registry, please submit a issue on the OpenTofu Registry https://github.com/we-dcode/registry/issues/new/choose"
 				}
 
 				diags = diags.Append(tfdiags.Sourceless(

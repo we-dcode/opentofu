@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/opentofu/opentofu/pkg/getproviders"
+	"github.com/we-dcode/opentofu/pkg/getproviders"
 )
 
 // InstallPackage takes a metadata object describing a package available for

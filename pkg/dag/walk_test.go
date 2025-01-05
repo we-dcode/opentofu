@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 func TestWalker_basic(t *testing.T) {

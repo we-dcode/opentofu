@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opentofu/opentofu/pkg/configs"
-	"github.com/opentofu/opentofu/pkg/encryption"
-	"github.com/opentofu/opentofu/pkg/encryption/config"
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/static"
-	"github.com/opentofu/opentofu/pkg/encryption/method/aesgcm"
-	"github.com/opentofu/opentofu/pkg/encryption/registry/lockingencryptionregistry"
+	"github.com/we-dcode/opentofu/pkg/configs"
+	"github.com/we-dcode/opentofu/pkg/encryption"
+	"github.com/we-dcode/opentofu/pkg/encryption/config"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/static"
+	"github.com/we-dcode/opentofu/pkg/encryption/method/aesgcm"
+	"github.com/we-dcode/opentofu/pkg/encryption/registry/lockingencryptionregistry"
 )
 
 var hclConfig = `key_provider "static" "foo" {

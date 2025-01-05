@@ -10,7 +10,7 @@ import (
 	"fmt"
 
 	"github.com/apparentlymart/go-versions/versions"
-	"github.com/opentofu/opentofu/pkg/addrs"
+	"github.com/we-dcode/opentofu/pkg/addrs"
 )
 
 // FilesystemMirrorSource is a source that reads providers and their metadata

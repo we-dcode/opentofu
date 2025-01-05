@@ -8,7 +8,7 @@ package tofu
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/pkg/dag"
+	"github.com/we-dcode/opentofu/pkg/dag"
 )
 
 // VertexTransformer is a GraphTransformer that transforms vertices

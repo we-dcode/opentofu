@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/aws-sdk-go-base/v2/diag"
 
-	"github.com/opentofu/opentofu/pkg/tfdiags"
+	"github.com/we-dcode/opentofu/pkg/tfdiags"
 )
 
 func diagnosticString(d tfdiags.Diagnostic) string {

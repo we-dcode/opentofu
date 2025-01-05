@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/opentofu/opentofu/pkg/states"
+	"github.com/we-dcode/opentofu/pkg/states"
 )
 
 // MarshalCheckStates is the main entry-point for this package, which takes

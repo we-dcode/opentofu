@@ -416,7 +416,7 @@ func (s signatureAuthentication) AuthenticatePackage(location PackageLocation) (
 	if !shouldValidate {
 		// As this is a temporary measure, we will log a warning to the user making it very clear what is happening
 		// and why. This will be removed in a future release.
-		log.Printf("[WARN] Skipping GPG validation of provider package %s as no keys were provided by the registry. See https://github.com/opentofu/opentofu/pull/309 for more information.", location)
+		log.Printf("[WARN] Skipping GPG validation of provider package %s as no keys were provided by the registry. See https://github.com/we-dcode/opentofu/pull/309 for more information.", location)
 
 		// construct an empty keyID to indicate that we are not validating and return no errors
 		// this is to force a successful authentication

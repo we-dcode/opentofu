@@ -13,5 +13,5 @@ import (
 var tracer trace.Tracer
 
 func init() {
-	tracer = otel.Tracer("github.com/opentofu/opentofu/pkg/command")
+	tracer = otel.Tracer("github.com/we-dcode/opentofu/pkg/command")
 }

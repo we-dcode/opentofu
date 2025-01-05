@@ -9,7 +9,7 @@ import (
 	"crypto/rand"
 	"io"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 )
 
 const (

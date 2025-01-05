@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider/compliancetest"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider/compliancetest"
 )
 
 func TestKeyProvider(t *testing.T) {

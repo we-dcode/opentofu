@@ -6,8 +6,8 @@
 package differ
 
 import (
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/computed"
-	"github.com/opentofu/opentofu/pkg/command/jsonformat/structured"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/computed"
+	"github.com/we-dcode/opentofu/pkg/command/jsonformat/structured"
 )
 
 // asDiff is a helper function to abstract away some simple and common

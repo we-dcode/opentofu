@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/opentofu/opentofu/pkg/cloud/cloudplan"
-	"github.com/opentofu/opentofu/pkg/plans"
+	"github.com/we-dcode/opentofu/pkg/cloud/cloudplan"
+	"github.com/we-dcode/opentofu/pkg/plans"
 )
 
 // ShowPlanForRun downloads the JSON plan output for the specified cloud run

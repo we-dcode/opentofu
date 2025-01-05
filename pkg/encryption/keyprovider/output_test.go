@@ -8,7 +8,7 @@ package keyprovider_test
 import (
 	"testing"
 
-	"github.com/opentofu/opentofu/pkg/encryption/keyprovider"
+	"github.com/we-dcode/opentofu/pkg/encryption/keyprovider"
 	"github.com/zclconf/go-cty/cty"
 )
 
